@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 class HoT{
     public static void main(String[] args){
-        int head=0;
+	System.out.println("Who are you?");
+	Scanner scan=new Scanner(System.in);
+	String str=scan.next();
+	System.out.println("Hello, "+str+"!");
+
+	int head=0;
         int tail=0;
         System.out.println("Tossing a coin...");
         for(int i=1; i<=3; i++){
